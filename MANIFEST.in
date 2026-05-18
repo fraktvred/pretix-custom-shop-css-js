@@ -1,0 +1,2 @@
+recursive-include pretix_custom_shop_css_js/templates *
+recursive-include pretix_custom_shop_css_js/static *

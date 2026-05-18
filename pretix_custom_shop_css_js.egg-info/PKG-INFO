@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: pretix-custom-shop-css-js
+Version: 1.0.0
+Summary: pretix plugin to inject custom CSS and JS into all organizer presale pages
+Author: Laurenz Marquardt
+License: Apache Software License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pretix

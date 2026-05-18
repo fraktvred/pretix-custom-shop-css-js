@@ -1,0 +1,2 @@
+[pretix_plugins]
+pretix_custom_shop_css_js = pretix_custom_shop_css_js.apps:PluginApp

@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.cfg
+setup.py
+pretix_custom_shop_css_js/__init__.py
+pretix_custom_shop_css_js/apps.py
+pretix_custom_shop_css_js/signals.py
+pretix_custom_shop_css_js.egg-info/PKG-INFO
+pretix_custom_shop_css_js.egg-info/SOURCES.txt
+pretix_custom_shop_css_js.egg-info/dependency_links.txt
+pretix_custom_shop_css_js.egg-info/entry_points.txt
+pretix_custom_shop_css_js.egg-info/requires.txt
+pretix_custom_shop_css_js.egg-info/top_level.txt
+tests/__init__.py

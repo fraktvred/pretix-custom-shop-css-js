@@ -1,0 +1,23 @@
+{% extends "pretixcontrol/base.html" %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% block title %}{% trans "Custom CSS/JS" %}{% endblock %}
+{% block content %}
+<h1>{% trans "Custom CSS/JS" %}</h1>
+<p class="text-muted">
+    {% blocktrans trimmed %}
+        The CSS and JavaScript entered here will be injected into every presale page
+        for this organizer, including the event listing and all individual event pages.
+    {% endblocktrans %}
+</p>
+<form action="" method="post" class="form-horizontal">
+    {% csrf_token %}
+    {% bootstrap_form_errors form %}
+    {% bootstrap_form form layout="control" %}
+    <div class="form-group submit-group">
+        <button type="submit" class="btn btn-primary btn-save">
+            {% trans "Save" %}
+        </button>
+    </div>
+</form>
+{% endblock %}
